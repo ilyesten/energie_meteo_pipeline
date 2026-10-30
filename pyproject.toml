@@ -1,0 +1,14 @@
+[project]
+name = "energie-meteo-pipeline"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-storage>=3.17.1",
+    "ipykernel>=7.4.0",
+    "pandas>=3.1.0",
+    "pyarrow>=26.0.0",
+    "pyspark==4.1.2",
+    "pytest>=9.2.0",
+    "requests>=2.34.2",
+    "ruff>=0.17.3",
+]
